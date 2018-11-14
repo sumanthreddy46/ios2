@@ -69,35 +69,35 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SPU-f8-8zE" userLabel="txtUsername">
-                                <rect key="frame" x="230" y="284" width="97" height="30"/>
+                                <rect key="frame" x="169" y="284" width="181" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uL3-Na-wgl" userLabel="txtPassword">
-                                <rect key="frame" x="230" y="327" width="97" height="30"/>
+                                <rect key="frame" x="169" y="327" width="181" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="apX-tz-E9G" userLabel="txtFirstname">
-                                <rect key="frame" x="230" y="365" width="97" height="30"/>
+                                <rect key="frame" x="169" y="365" width="181" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="49z-kq-ezN" userLabel="txtLastname">
-                                <rect key="frame" x="230" y="403" width="97" height="30"/>
+                                <rect key="frame" x="169" y="403" width="181" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AwF-dM-a49" userLabel="txtEmail">
-                                <rect key="frame" x="230" y="441" width="97" height="30"/>
+                                <rect key="frame" x="169" y="441" width="181" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -134,7 +134,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <action selector="acRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PR2-v5-7Eb"/>
+                                    <action selector="acRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vKQ-un-XSX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,7 +144,7 @@
                     <connections>
                         <outlet property="btnLogin" destination="StY-Py-g3a" id="ZdL-c1-vcq"/>
                         <outlet property="btnModify" destination="8iC-uG-ShB" id="FjP-DP-p0H"/>
-                        <outlet property="btnRegister" destination="ISt-3s-Ouc" id="z4x-1L-4Q8"/>
+                        <outlet property="btnRegister" destination="ISt-3s-Ouc" id="Nzf-nc-Lxj"/>
                         <outlet property="btnSave" destination="4S8-U2-nYi" id="IKm-tr-xf9"/>
                         <outlet property="lblEmail" destination="sZz-rD-9RW" id="Rfj-El-Vvs"/>
                         <outlet property="lblEncryption" destination="Egj-ba-jUZ" id="5Du-Q9-3v2"/>

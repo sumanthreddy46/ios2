@@ -103,8 +103,40 @@ class ViewController: UIViewController {
             
         }
     }
-    @IBAction func acRegister(_ sender: Any) {
-    }
     
+    func errorMessage(message: String){
+        let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+        self.present(alert, animated: true , completion: nil )
+        
+    }
+    @IBAction func acRegister(_ sender: UIButton) {
+        if(txtUsername.text?.isEmpty)!{
+            errorMessage(message: "Please enter UserName")
+        }else if(txtPassword.text?.isEmpty)!
+        {
+            errorMessage(message: "Please enter Password")
+            
+        }else if(txtFirstname.text?.isEmpty)!{
+            errorMessage(message: "Please enter FirstName")
+            
+        }else if(txtLastname.text?.isEmpty)!{
+            errorMessage(message: "Please enter LastName")
+            
+        }else if(txtEmail.text?.isEmpty)!{
+            errorMessage(message: "Please enter Email")
+        }else{
+            let alert = UIAlertController(title: "Congrats", message: "You have been successfully registered", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+            self.present(alert, animated: true , completion: nil )
+            txtUsername.text = ""
+            txtPassword.text = ""
+            txtFirstname.text = ""
+            txtLastname.text = ""
+            txtEmail.text = ""
+            
+        }
+        
+    }
 }
 
